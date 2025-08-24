@@ -8,7 +8,7 @@ export default function App() {
     auth()
       .signInWithEmailAndPassword("snehasishg029@gmail.com", "@12Qwaszx")
       .then(() => {
-        console.log("✅ Login successfully");
+        console.log("✅ Login successfully...");
       })
       .catch((e) => {
         console.error("❌ Login failed:", e);
