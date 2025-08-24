@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "875906418610",
+    "project_id": "cartify-63b9a",
+    "storage_bucket": "cartify-63b9a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875906418610:android:97658700831055e0d506ab",
+        "android_client_info": {
+          "package_name": "com.cartify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSWO8vSrRm55fH8jCy7GyKFQhDIND2Vak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
