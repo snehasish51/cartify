@@ -9,7 +9,7 @@ const LoginScreen = () => {
     // </View>
     <BaseLayout isFullScreen={true} >
      <View  className="flex-1 items-center justify-center">
-       <Text className="text-red-500">LoginScreen</Text>
+       <Text className="text-red-500">LoginScreen xyz</Text>
      </View>
     </BaseLayout>
   );
