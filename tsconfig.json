@@ -6,9 +6,16 @@
     "jsx": "react-jsx",
     "strict": true,
     "moduleResolution": "bundler",
-    "types": ["nativewind/types"],
+    "types": [
+      "nativewind/types"
+    ],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true
   },
-  "include": ["./nativewind-env.d.ts", "src", "App.tsx"]
+  "include": [
+    "./nativewind-env.d.ts",
+    "src",
+    "App.tsx",
+    "nativewind-env.d.ts"
+  ]
 }
