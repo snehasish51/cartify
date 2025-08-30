@@ -1,11 +1,13 @@
-const {getDefaultConfig, mergeConfig} = require('@react-native/metro-config');
+// metro.config.js
+const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config');
+const { withNativeWind } = require('nativewind/metro');
 
-/**
- * Metro configuration
- * https://reactnative.dev/docs/metro
- *
- * @type {import('@react-native/metro-config').MetroConfig}
- */
-const config = {};
+// Merge your default Metro config
+const config = mergeConfig(getDefaultConfig(__dirname), {
+  /* add any custom Metro config here if needed */
+});
 
-module.exports = mergeConfig(getDefaultConfig(__dirname), config);
+// Wrap the config with NativeWind and specify the Tailwind CSS file
+module.exports = withNativeWind(config, {
+  input: './global.css', // path to your Tailwind CSS file
+});
