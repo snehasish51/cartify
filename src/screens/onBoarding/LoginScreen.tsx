@@ -1,18 +1,18 @@
 import * as React from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import { Text, View } from 'react-native';
+import { BaseLayout } from '../../components/layout/BaseLayout';
 
-interface LoginScreenProps {}
-
-const LoginScreen = (props: LoginScreenProps) => {
+const LoginScreen = () => {
   return (
-    <View >
-      <Text>LoginScreen</Text>
-    </View>
+    // <View  className="flex-1 items-center justify-center">
+    //   <Text className="text-red-500">LoginScreen</Text>
+    // </View>
+    <BaseLayout isFullScreen={true} >
+     <View  className="flex-1 items-center justify-center">
+       <Text className="text-red-500">LoginScreen xyz</Text>
+     </View>
+    </BaseLayout>
   );
 };
 
 export default LoginScreen;
-
-const styles = StyleSheet.create({
-  container: {}
-});
