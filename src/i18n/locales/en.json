@@ -2,6 +2,16 @@
   "common": {
     "cartify": "Cartify"
   },
+  "error":{
+    "this_field_can_not_be_empty": "This field can not be empty!",
+    "invalid_email": "Email is not valid",
+    "password_does_not_match": "Password and confirm password does not match",
+    "password_instruction": "Password must be at least 8 characters long, contain at least one uppercase letter, one lowercase letter, one number, and one special character.",
+    "no_account_found_with_this_email":"No account found with this email",
+    "incorrect_credentials":"Incorrect credentials",
+    "invalid_email_address:":"Invalid email address",
+    "login_failed_please_try_again":"Login failed.Please try again"
+  },
   "login": {
     "log_in": "Login",
     "welcome": "Welcome!",
@@ -12,5 +22,37 @@
     "forgot_your_password": "Forgot your Password?",
     "dont_have_an_account": "Don't have an account?",
     "sign_up": "Sign Up"
+  },
+  "resend_emai_verification":{
+    "email_verification_required": "Email Verification Required",
+    "pleaase_verify_your_email_address": "Please verify your email address",
+    "weve_sent_a_verification_email_to_your_email_address": "We have sent a verification email to your email address",
+    "please_check_your_email": "Please check your email",
+    "email_sent_successfully": "Email sent successfully",
+    "verification_email_has_been_resent":"Verification email has been resent",
+
+    "resend_verification_email": "Resend Verification Email",
+    "logout": "Logout"
+  },
+  "forgotPassword": {
+    "forgot_password": "Forgot Password",
+    "enter_your_email_below_to_reset_your_password": "Provide your email and we will send you a link to reset your password",
+   "email": "Email",
+    "email_placeholder":"me@example.com",
+    "reset_password": "Reset Password",
+    "go_back":"Go Back"
+  },
+  "signup":{
+    "register": "Register",
+    "enter_your_information_to_create_your_account": "Enter your information to create your account",
+    "email": "Email",
+    "email_placeholder":"me@example.com",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "already_have_an_account": "Already have an account?",
+    "log_in": "Login",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "create_accout": "Create Account"
   }
 }

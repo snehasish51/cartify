@@ -23,13 +23,13 @@ export const BaseLayout = React.memo(({ children, className, inverted, isFullScr
     const { colorScheme } = useColorScheme();
     const invertedScheme = inverted ? 'bg-[#0a0a0a], dark:bg-white' : '';
     return (
-        <View className={twMerge('flex-1 justify-center bg-[#ffffff] dark:bg-[#0a0a0a] pt-10 ', className, invertedScheme)}>
+        <View className={twMerge('flex-1 justify-center bg-[#ffffff] dark:bg-[#0a0a0a] pt-10 pb-10 ', className, invertedScheme)}>
             <StatusBar
                 translucent
                 barStyle={colorScheme === 'dark' ? 'light-content' : 'dark-content'}
                 backgroundColor="transparent"
             />
-            <View className={twMerge('flex-1 pt-32', isFullScreen && 'pt-0')}>
+            <View className={twMerge('flex-1 ', isFullScreen && 'pt-0')}>
                 <KeyboardAvoidingView
                     behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
                     className="flex-1 "
