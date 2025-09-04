@@ -10,7 +10,6 @@ export enum Screen {
 }
 
 export type NavStackParams = {
-
     [Screen.LOGIN]: undefined;
     [Screen.SIGNUP]: undefined;
     [Screen.FORGOT_PASSWORD]: undefined;
